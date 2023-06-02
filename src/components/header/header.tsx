@@ -5,9 +5,9 @@ import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
   { path: 'blog', name: 'Blog' },
-  { path: 'about', name: 'About' },
+  //  { path: 'about', name: 'About' },
   { path: 'contact', name: 'Contact' },
-  { path: 'projects', name: 'Projects' },
+  //  { path: 'projects', name: 'Projects' },
 ];
 
 export default function Header() {
