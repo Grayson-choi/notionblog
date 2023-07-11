@@ -6,7 +6,7 @@ import { toUniqueArray } from '@/utils/to-unique-array';
 
 export const metadata = {
   title: 'Blog',
-  description: 'Blog 게시글',
+  description: 'All posts are created by notion ai.',
 };
 
 export default async function BlogPage() {

@@ -10,8 +10,8 @@ import '@/styles/paginate.css';
 
 export const metadata = {
   title: {
-    default: 'ucancode',
-    template: '%s | ucancode',
+    default: 'UcanCODE',
+    template: '%s | UcanCODE',
   },
 };
 
