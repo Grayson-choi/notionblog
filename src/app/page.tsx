@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Welcome | UcanCODE',
+  title: 'Welcome | UcanCode',
 };
 
 export default function HomePage() {
