@@ -14,8 +14,8 @@ export async function getAllPostsFromNotion() {
 
   Object.keys(block).forEach((pageId) => {
     if (
-      block[pageId].value.type === 'page' &&
-      block[pageId].value.properties[propertyMap['Slug']]
+      block[pageId]?.value?.type === 'page' &&
+      block[pageId]?.value?.properties?.[propertyMap['Slug']]
     ) {
       const { properties, last_edited_time } = block[pageId].value;
 
